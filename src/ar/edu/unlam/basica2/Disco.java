@@ -20,8 +20,7 @@ public class Disco {
 	public void setRadioExterior(Double radioExterior) {
 		this.radioExterior = radioExterior;
 	}
-
-	public Double conseguirPerimetroInterior() {
+	public Double conseguirPerimetroInterior(){
 		Double perimetroInterior;
 		perimetroInterior = 2 * Math.PI * getRadioInterior();
 		return perimetroInterior;
